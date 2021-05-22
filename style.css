@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+h4{
+  color : azure;
+  text-emphasis-color: white;
+}
+
+h3{
+  color : azure;
+  text-emphasis-color: white;
+}
