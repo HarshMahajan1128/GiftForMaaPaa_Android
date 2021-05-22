@@ -19,10 +19,10 @@ class Form {
   display(){
     // this.title.html("Welcome To Your Surprise !");
     // this.title.position(displayWidth/2 - 150, 0);
-    this.input.position(displayWidth/2 - 135, displayHeight - 200);
-    this.button.position(displayWidth/2 + 53, displayHeight - 200);
+    this.input.position(displayWidth/2 - 135, displayHeight - 400);
+    this.button.position(displayWidth/2 + 53, displayHeight - 400);
     this.button2.hide();
-    this.button2.position(displayWidth - 150, displayHeight - 150);
+    this.button2.position(displayWidth - 100, displayHeight - 200);
     
     this.button.mousePressed(()=>{
       this.input.hide();
@@ -51,8 +51,8 @@ class Form {
 
         if(positionFlag===1){
           // console.log("in pos")
-           video.position(width/2 + 1000, height/2 + 1000);
-           video.size(displayWidth, displayHeight);
+           video.position(width/2 + 100, height/2 + 100);
+           video.size(displayWidth + 1000, displayHeight + 1000);
            positionFlag=0;
           }
         
